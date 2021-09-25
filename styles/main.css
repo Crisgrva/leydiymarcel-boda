@@ -68,11 +68,13 @@ p {
     border-top: solid 1px white;
     border-bottom: solid 1px white;
 }
-.title_txt_a{
+
+.title_txt_a {
     display: none;
     font-size: 1.2em;
     margin: 10px;
 }
+
 .names {
     width: 85%;
     color: var(--main-text-color);
@@ -112,20 +114,35 @@ p {
     text-align: center;
     font-weight: 200;
 }
+
 .btn_txt {
     color: var(--main-text-color);
     font-size: .8em;
     font-weight: 200;
 }
+
 .btn_txt:hover {
     color: white;
 }
-.btn{
+
+.btn_txt_2 {
+    color: white;
+    font-size: .8em;
+    font-weight: 200;
+}
+
+.btn_txt_2:hover {
+    color: white;
+}
+
+.btn {
     padding: 5px;
 }
-.btn:focus{
+
+.btn:focus {
     box-shadow: none;
 }
+
 .savedate {
     width: 85%;
     color: white;
@@ -143,22 +160,26 @@ a {
 a:active, a:focus, a:hover {
     color: white;
 }
-.modal-header{
+
+.modal-header {
     display: block;
 }
 
-.dresscode-modal{
+.dresscode-modal {
     margin: auto;
     justify-content: center;
     display: flex;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: var(--main-bg-color);
     border: none;
 }
-.btn-primary:hover, .btn-primary:active{
+
+.btn-primary:hover, .btn-primary:active {
     background-color: var(--main-bg-color);
 }
+
 @media (min-width: 767.98px) {
     .title {
         font-size: 1.7em;
@@ -179,6 +200,7 @@ a:active, a:focus, a:hover {
         font-size: 1.3em;
     }
 }
+
 @media (min-width: 1024px) {
     .inv_inside {
         padding: 2% 0%;
@@ -198,12 +220,12 @@ a:active, a:focus, a:hover {
     .savedate {
         font-size: 1.2em;
     }
-    .title_txt_a{
+    .title_txt_a {
         display: block;
         font-size: 1.2em;
         margin: 5px;
     }
-    .title_txt{
+    .title_txt {
         display: none;
     }
 }
