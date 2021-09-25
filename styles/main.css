@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+:root {
+    --main-bg-color: #d7a854;
+    --main-boder-color: #d7a854;
+    --main-text-color: #eccd7c;
+}
+
+html, body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+
+.invitation {
+    min-width: 320px;
+    width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    border-left: solid 20px var(--main-boder-color);
+    border-right: solid 20px var(--main-boder-color);
+}
+
+.leftside img {
+    width: calc(375px / 2 - 25px);
+    position: absolute;
+    left: 0px;
+    top: 0;
+}
+
+.rightside img {
+    width: calc(375px / 2 - 25px);
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+
+.inv_inside {
+    position: absolute;
+    left: 17.5%;
+    min-height: 100vh;
+    width: 65vw;
+    background-color: black;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 0%;
+}
+
+p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.title {
+    width: 70%;
+    color: var(--main-text-color);
+    justify-content: center;
+    font-size: 1.1em;
+    margin: auto;
+    text-align: center;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+.title_txt_a{
+    display: none;
+    font-size: 1.2em;
+    margin: 10px;
+}
+.names {
+    width: 85%;
+    color: var(--main-text-color);
+    justify-content: center;
+    font-size: 2.5em;
+    margin: auto;
+    text-align: center;
+    font-weight: 400;
+}
+
+.date {
+    width: 85%;
+    color: white;
+    justify-content: center;
+    font-size: .9em;
+    margin: auto;
+    text-align: center;
+    font-weight: 200;
+}
+
+.place {
+    width: 85%;
+    color: var(--main-text-color);
+    justify-content: center;
+    font-size: .9em;
+    margin: auto;
+    text-align: center;
+    font-weight: 200;
+}
+
+.dresscode {
+    width: 85%;
+    color: var(--main-text-color);
+    justify-content: center;
+    font-size: .8em;
+    margin: auto;
+    text-align: center;
+    font-weight: 200;
+}
+.btn_txt {
+    color: var(--main-text-color);
+    font-size: .8em;
+    font-weight: 200;
+}
+.btn_txt:hover {
+    color: white;
+}
+.btn{
+    padding: 5px;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.savedate {
+    width: 85%;
+    color: white;
+    justify-content: center;
+    font-size: .8em;
+    margin: auto;
+    text-align: center;
+    font-weight: 200;
+}
+
+a {
+    color: var(--main-text-color);
+}
+
+a:active, a:focus, a:hover {
+    color: white;
+}
+.modal-header{
+    display: block;
+}
+
+.dresscode-modal{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+@media (min-width: 767.98px) {
+    .title {
+        font-size: 1.7em;
+    }
+    .names {
+        font-size: 4.3em;
+    }
+    .date {
+        font-size: 1.7em;
+    }
+    .place {
+        font-size: 1.5em;
+    }
+    .dresscode {
+        font-size: 1.4em;
+    }
+    .savedate {
+        font-size: 1.3em;
+    }
+}
+@media (min-width: 1024px) {
+    .inv_inside {
+        padding: 2% 0%;
+    }
+    .names {
+        font-size: 4em;
+    }
+    .date {
+        font-size: 1.2em;
+    }
+    .place {
+        font-size: 1.5em;
+    }
+    .dresscode, .btn_txt {
+        font-size: 1em;
+    }
+    .savedate {
+        font-size: 1.2em;
+    }
+    .title_txt_a{
+        display: block;
+        font-size: 1.2em;
+        margin: 5px;
+    }
+    .title_txt{
+        display: none;
+    }
+}
