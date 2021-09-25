@@ -152,7 +152,13 @@ a:active, a:focus, a:hover {
     justify-content: center;
     display: flex;
 }
-
+.btn-primary{
+    background-color: var(--main-bg-color);
+    border: none;
+}
+.btn-primary:hover, .btn-primary:active{
+    background-color: var(--main-bg-color);
+}
 @media (min-width: 767.98px) {
     .title {
         font-size: 1.7em;
