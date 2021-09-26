@@ -66,7 +66,7 @@ p {
     text-align: center;
     border-top: solid 1px white;
     border-bottom: solid 1px white;
-    margin-top: 4%;
+    margin-top: 8%;
 }
 
 .title_txt_a {
@@ -83,7 +83,7 @@ p {
     margin: auto;
     text-align: center;
     font-weight: 400;
-    margin-top: 4%;
+    margin-top: 8%;
 }
 
 .date {
@@ -94,7 +94,7 @@ p {
     margin: auto;
     text-align: center;
     font-weight: 200;
-    margin-top: 4%;
+    margin-top: 8%;
 }
 
 .place {
@@ -105,7 +105,7 @@ p {
     margin: auto;
     text-align: center;
     font-weight: 200;
-    margin-top: 4%;
+    margin-top: 8%;
 }
 
 .dresscode {
@@ -116,7 +116,7 @@ p {
     margin: auto;
     text-align: center;
     font-weight: 200;
-    margin-top: 4%;
+    margin-top: 8%;
 }
 
 .btn_txt {
@@ -156,7 +156,7 @@ p {
     text-align: center;
     font-weight: 200;
     margin-bottom: 30%;
-    margin-top: 4%;
+    margin-top: 8%;
 }
 
 a {
