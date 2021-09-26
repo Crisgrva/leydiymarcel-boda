@@ -61,12 +61,12 @@ p {
     width: 70%;
     color: var(--main-text-color);
     justify-content: center;
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin: auto;
     text-align: center;
     border-top: solid 1px white;
     border-bottom: solid 1px white;
-    margin-top: 8%;
+    margin-top: 7%;
 }
 
 .title_txt_a {
@@ -79,22 +79,22 @@ p {
     width: 85%;
     color: var(--main-text-color);
     justify-content: center;
-    font-size: 2.5em;
+    font-size: 2.7em;
     margin: auto;
     text-align: center;
     font-weight: 400;
-    margin-top: 8%;
+    margin-top: 7%;
 }
 
 .date {
     width: 85%;
     color: white;
     justify-content: center;
-    font-size: .9em;
+    font-size: 1.1em;
     margin: auto;
     text-align: center;
     font-weight: 200;
-    margin-top: 8%;
+    margin-top: 7%;
 }
 
 .place {
@@ -105,18 +105,18 @@ p {
     margin: auto;
     text-align: center;
     font-weight: 200;
-    margin-top: 8%;
+    margin-top: 7%;
 }
 
 .dresscode {
     width: 85%;
     color: var(--main-text-color);
     justify-content: center;
-    font-size: .8em;
+    font-size: 1em;
     margin: auto;
     text-align: center;
     font-weight: 200;
-    margin-top: 8%;
+    margin-top: 7%;
 }
 
 .btn_txt {
@@ -151,15 +151,16 @@ p {
     width: 85%;
     color: white;
     justify-content: center;
-    font-size: .8em;
+    font-size: 1.1em;
     margin: auto;
     text-align: center;
     font-weight: 200;
     margin-bottom: 30%;
-    margin-top: 8%;
+    margin-top: 7%;
 }
 
 a {
+    font-size: 1.1em;
     color: var(--main-text-color);
 }
 
